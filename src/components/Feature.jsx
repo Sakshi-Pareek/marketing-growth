@@ -1,11 +1,11 @@
 import React from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import WsjImg from "../assets/images/png/wsj.png"
-import Enterpreneur from "../assets/images/png/entrepreneur.png"
-import Fortune from "../assets/images/png/fortune.png"
-import Forbase from "../assets/images/png/forbes.png"
-import IncImg from '../assets/images/png/inc.png'
+import WsjImg from "../assets/images/webp/wsj.webp"
+import Enterpreneur from "../assets/images/webp/entrepreneur.webp"
+import Fortune from "../assets/images/webp/fortune.webp"
+import Forbase from "../assets/images/webp/forbes.webp"
+import IncImg from '../assets/images/webp/inc.webp'
 import { Container } from "react-bootstrap";
 import Slider from "react-slick";
 

@@ -1,13 +1,12 @@
 import React from "react";
-import { Container } from "react-bootstrap";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import Blueshirtman from "../assets/images/png/blue-shirt-man.webp";
+import Blueshirtman from "../assets/images/webp/blue-shirt-man.webp";
 import { Playbtn, UsLbm_icon, BtnSliderNext, BtnSliderpre } from "./Icons";
-import ActualLine from "../assets/images/png/actualbottomline.png";
-import bg_bubble from "../assets/images/png/BubbleImg.png";
-import MenInBlackTee from "../assets/images/png/MichaelETestomnial.webp";
+import ActualLine from "../assets/images/webp/actualbottomline.webp";
+import bg_bubble from "../assets/images/webp/BubbleImg.webp";
+import MenInBlackTee from "../assets/images/webp/MichaelETestomnial.webp";
 const ActualResults = () => {
   const settings1 = {
     centerMode: true,

@@ -1,11 +1,11 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import DigitalCard1Ing from "../assets/images/png/digitalcard1img.png";
-import DigitalCard2Ing from "../assets/images/png/digitalcard2img.png";
-import DigitalCard3Ing from "../assets/images/png/digitalcard3img.png";
-import DigitalCard4Ing from "../assets/images/png/digitalcard4img.png";
-import DigitalTopLine from "../assets/images/png/digitalmarketingtopline.png";
-import DigitalBottomLine from "../assets/images/png/digitalmarketingbottomline.png";
+import DigitalCard1Ing from "../assets/images/webp/digitalcard1img.webp";
+import DigitalCard2Ing from "../assets/images/webp/digitalcard2img.webp";
+import DigitalCard3Ing from "../assets/images/webp/digitalcard3img.webp";
+import DigitalCard4Ing from "../assets/images/webp/digitalcard4img.webp";
+import DigitalTopLine from "../assets/images/webp/digitalmarketingtopline.webp";
+import DigitalBottomLine from "../assets/images/webp/digitalmarketingbottomline.webp";
 import { LearnBtnIcon } from "./Icons";
 
 const DigitalMarketing = () => {
@@ -18,18 +18,6 @@ const DigitalMarketing = () => {
       description1: "Boost your presence in search results",
       description2: "Capture targeted site traffic",
       description3: "Turn site visitors into customers",
-      // button: "Explore SEO Services",
-      // imagearrow: (
-      //   <svg
-      //     width="10"
-      //     height="10"
-      //     viewBox="0 0 10 10"
-      //     fill="none"
-      //     xmlns="http://www.w3.org/2000/svg"
-      //   >
-      //     <path d="M10 5.00343L0 0V10L10 5.00343Z" fill="#231F20" />
-      //   </svg>
-      // ),
       image: DigitalCard1Ing,
     },
     {
@@ -40,18 +28,6 @@ const DigitalMarketing = () => {
       description1: "Refine ad targeting",
       description2: "Engage your audience where they",
       description3: "Maximize paid ad budget",
-      // button: "Explore SEO Services",
-      // imagearrow: (
-      //   <svg
-      //     width="10"
-      //     height="10"
-      //     viewBox="0 0 10 10"
-      //     fill="none"
-      //     xmlns="http://www.w3.org/2000/svg"
-      //   >
-      //     <path d="M10 5.00343L0 0V10L10 5.00343Z" fill="#231F20" />
-      //   </svg>
-      // ),
       image: DigitalCard2Ing,
     },
     {
@@ -62,18 +38,6 @@ const DigitalMarketing = () => {
       description1: "Fill up your lead pipeline",
       description2: " Reach your most valuable audience",
       description3: "Maximize conversion opportunities",
-      // button: "Explore SEO Services",
-      // imagearrow: (
-      //   <svg
-      //     width="10"
-      //     height="10"
-      //     viewBox="0 0 10 10"
-      //     fill="none"
-      //     xmlns="http://www.w3.org/2000/svg"
-      //   >
-      //     <path d="M10 5.00343L0 0V10L10 5.00343Z" fill="#231F20" />
-      //   </svg>
-      // ),
       image: DigitalCard3Ing,
     },
     {
@@ -84,18 +48,6 @@ const DigitalMarketing = () => {
       description1: "Unify sales and marketing data",
       description2: "Prioritize leads with data-backed insights",
       description3: "Turn opportunities into closed deals",
-      // button: "Explore SEO Services",
-      // imagearrow: (
-      //   <svg
-      //     width="10"
-      //     height="10"
-      //     viewBox="0 0 10 10"
-      //     fill="none"
-      //     xmlns="http://www.w3.org/2000/svg"
-      //   >
-      //     <path d="M10 5.00343L0 0V10L10 5.00343Z" fill="#231F20" />
-      //   </svg>
-      // ),
       image: DigitalCard4Ing,
     },
   ];
@@ -179,7 +131,9 @@ const DigitalMarketing = () => {
                     </ul>
                     <button className="ff_maison_neue_bold fw-bold text-capitalize fs_5sm lh_134 text-black d-flex align-items-center bg-transparent border-0">
                       Explore SEO Services
-                      <span className="ms-2"><LearnBtnIcon/></span>
+                      <span className="ms-2">
+                        <LearnBtnIcon />
+                      </span>
                     </button>
                   </div>
                 </div>

@@ -12,7 +12,7 @@ import LearnUs from './components/LearnUs';
 import Footer from './components/Footer';
 import ActualResults from './components/ActualResults';
 import PreLoader from './components/PreLoader';
-import BackToTop from "./assets/images/png/backtotop.png"
+import BackToTop from "./assets/images/webp/backtotop.webp"
 import Aos from 'aos';
 import "aos/dist/aos.css";
 

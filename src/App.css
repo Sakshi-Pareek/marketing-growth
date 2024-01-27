@@ -283,13 +283,13 @@ li:hover .dropdown-box {
   max-width: 440px;
 }
 .bg_card1 {
-  background-image: url(./assets/images/png/card_first_img.png);
+  background-image: url(./assets/images/webp/card_first_img.webp);
 }
 .bg_card2 {
-  background-image: url(./assets/images/png/card_sec_img.png);
+  background-image: url(./assets/images/webp/card_sec_img.webp);
 }
 .bg_card3 {
-  background-image: url(./assets/images/png/card_third_img.png);
+  background-image: url(./assets/images/webp/card_third_img.webp);
 }
 /* =========================================DIGITAL=MARKETING===================================== */
 .letter_spacing {
@@ -481,7 +481,7 @@ input::placeholder {
   content: "";
   position: absolute;
   width: 100%;
-  background-image: url("./assets/images/png/backgroundofslider.png");
+  background-image: url("./assets/images/webp/backgroundofslider.webp");
   object-fit: cover;
   background-size: 100% 100%;
   background-position: center;
@@ -528,7 +528,7 @@ input::placeholder {
 }
 /* ===========================================READY-TO-HIT================================ */
 .ready_bg {
-  background-image: url(./assets/images/png/readytohitbg.png);
+  background-image: url(./assets/images/webp/readytohitbg.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -545,7 +545,7 @@ input::placeholder {
 }
 /* ===========================================LEARN-US=============================================== */
 .learn_bg {
-  background-image: url(./assets/images//png//learnusbg.png);
+  background-image: url(./assets/images/webp/learnusbg.webp);
 }
 .min_vh_100 {
   min-height: 100vh;
@@ -592,8 +592,6 @@ input::placeholder {
 }
 /* =======================================ACTUAL-RESULTS========================================= */
 .actual_bg_img {
-  /* background-image: url("./assets/images/png/bg-results.webp"); 
-  */
   background-color: #097980;
   background-repeat: no-repeat;
   background-position: center;
@@ -605,7 +603,6 @@ input::placeholder {
   animation: bubble 8s linear infinite;
   max-width: 890px;
   max-height: 876px;
-  /* opacity:  70%; */
 }
 @keyframes bubble {
   0%,
@@ -648,12 +645,12 @@ input::placeholder {
 .slick-dots li.slick-active button:before {
   background-color: white !important;
 }
-.slick-slide.div.div.img {
+.slick-slide>div>div>div {
   opacity: 0.5;
   outline: none !important;
 }
 
-.slick-slide.div.div.img {
+.slick-current>div>div>div{
   opacity: 1;
 }
 .Red_line {

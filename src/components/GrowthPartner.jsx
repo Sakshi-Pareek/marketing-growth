@@ -1,26 +1,26 @@
 import React from "react";
-import GrowthPartnerTopGreenLine from "../assets/images/png/growthpartnertopgreenline.png";
-import GrowthPartnerBottomGreenLine from "../assets/images/png/growthpartnerbottongreenline.png";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Container from "react-bootstrap/Container";
+import { Subscribe } from "./Icons";
+import { Card_arrow } from "./Icons";
+import { ProjectBtn_arrow } from "./Icons";
 import GrowthVideo from "../assets/videos/growthvideo.mp4";
 import EarthVideo from "../assets/videos/EarthVideo.mp4";
 import ProjectVideo from "../assets/videos/ProjectRadar.mp4";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import { Subscribe } from "./Icons";
-import HomeImg from "../assets/images/png/HomeImg.webp";
-import AIA from "../assets/images/png/AIA.webp";
-import Lowes from "../assets/images/png/LowesImg.webp";
-import Risinger from "../assets/images/png/Risinger.webp";
-import Houzz from "../assets/images/png/Houzz.webp";
-import CardImg from "../assets/images/png/CardImg.webp";
-import { Card_arrow } from "./Icons";
-import logoipsum from "../assets/images/png/LogoIpsum.webp";
-import { ProjectBtn_arrow } from "./Icons";
-import MapImg from "../assets/images/png/MapImg.webp";
-import DotImg from "../assets/images/png/DotImg.webp";
-import NavTabRedLine from "../assets/images/png/NavTabbRedLine.webp";
-import RedCross from "../assets/images/png/RedCross.png";
+import GrowthPartnerTopGreenLine from "../assets/images/webp/growthpartnertopgreenline.webp";
+import GrowthPartnerBottomGreenLine from "../assets/images/webp/growthpartnerbottongreenline.webp";
+import HomeImg from "../assets/images/webp/HomeImg.webp";
+import AIA from "../assets/images/webp/AIA.webp";
+import Lowes from "../assets/images/webp/LowesImg.webp";
+import Risinger from "../assets/images/webp/Risinger.webp";
+import Houzz from "../assets/images/webp/Houzz.webp";
+import CardImg from "../assets/images/webp/CardImg.webp";
+import logoipsum from "../assets/images/webp/LogoIpsum.webp";
+import MapImg from "../assets/images/webp/MapImg.webp";
+import DotImg from "../assets/images/webp/DotImg.webp";
+import NavTabRedLine from "../assets/images/webp/NavTabbRedLine.webp";
+import RedCross from "../assets/images/webp/RedCross.webp";
 
 const GrowthPartner = () => {
   return (
@@ -189,7 +189,11 @@ const GrowthPartner = () => {
                       <img src={HomeImg} alt="HomeImg" />
                     </div>
                     <div className="position-relative">
-                      <img src={RedCross} alt="RedCross" className="position-absolute Red_line" />
+                      <img
+                        src={RedCross}
+                        alt="RedCross"
+                        className="position-absolute Red_line"
+                      />
                       <img src={AIA} alt="AIA" />
                     </div>
                     <div>

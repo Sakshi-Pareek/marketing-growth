@@ -1,6 +1,6 @@
 import React from "react";
-import EarningBg from "../assets/images/png/earning_bg_img.png";
-import EarnArrow from "../assets/images/png/earnSectionArrow.png";
+import EarningBg from "../assets/images/webp/earning_bg_img.webp";
+import EarnArrow from "../assets/images/webp/earnSectionArrow.webp";
 import { Container } from "react-bootstrap";
 
 const StartEarning = () => {

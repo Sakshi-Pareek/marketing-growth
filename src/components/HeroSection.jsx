@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { LetArrow, SearchIcon } from "./Icons";
-import GrowthGreenline from "../assets/images/png/growthgreenline.png";
+import GrowthGreenline from "../assets/images/webp/growthgreenline.webp";
 import { Container } from "react-bootstrap";
-import Blueline from "../assets/images/png/herosectionblueline.png";
-import MadeForBrand from "../assets/images/png/madeforcircle.png";
+import Blueline from "../assets/images/webp/herosectionblueline.webp";
+import MadeForBrand from "../assets/images/webp/madeforcircle.webp";
 import HeroVideo from "../assets/videos/herovideo.mp4";
 
 const HeroSection = () => {

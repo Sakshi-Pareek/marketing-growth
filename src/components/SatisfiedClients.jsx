@@ -1,10 +1,10 @@
 import React from "react";
 import ClientSectionLine from "../assets/images/webp/clients_section_line.webp";
 import ClientSectionTopLine from "../assets/images/webp/clients_section_top_line.webp";
-import RedLine from "../assets/images/png/redline.png";
-import AmberBook from "../assets/images/png/AmberBook.png";
-import FransGroup from "../assets/images/png/farnsworth.png";
-import Lcm from "../assets/images/png/lbm.png";
+import RedLine from "../assets/images/webp/redline.webp";
+import AmberBook from "../assets/images/webp/AmberBook.webp";
+import FransGroup from "../assets/images/webp/farnsworth.webp";
+import Lcm from "../assets/images/webp/lbm.webp";
 import { LearnBtnIcon } from "./Icons";
 import { Col, Row } from "react-bootstrap";
 
